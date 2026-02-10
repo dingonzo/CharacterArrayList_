@@ -3,7 +3,6 @@
  *  Edgar Gonzalez
  *  2026-01-28
  *
- *  COMP 15 HW 1 Cheshire ConCATenation
  *
  *  FILE PURPOSE HERE
  *
