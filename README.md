@@ -1,6 +1,6 @@
 # Dynamic_Array
  [![C/C++ CI](https://github.com/dingonzo/dynamic-array/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/dingonzo/dynamic-array/actions/workflows/c-cpp.yml)
- *
+ * ---------------------------------------------------
 Testing & Validation
 This repository includes a dedicated test suite.
 * **Memory Safety:** Verified the "Big Three" (Destructor, Copy Constructor, Assignment Operator) for deep copy integrity.
