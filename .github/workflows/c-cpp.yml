@@ -18,6 +18,7 @@ jobs:
       run: make
 
     - name: Run Tests
-      # Only keep this if your Makefile actually has a 'check' target
-      run: make check
+      run: |
+        chmod +x ./unit_tests
+        ./unit_tests
 
