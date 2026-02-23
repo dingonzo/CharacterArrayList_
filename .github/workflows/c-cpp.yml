@@ -14,7 +14,8 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
-    - name: configure
+    - name: Run configure
+      working-directory: ./dynamic-array
       run: ./configure
     - name: make
       run: make
