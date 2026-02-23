@@ -14,14 +14,10 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Run configure
-      # Removed the working-directory line so it stays in the root
-      run: |
-        chmod +x ./configure
-        ./configure
-
-    - name: make
+    - name: Compile (make)
       run: make
 
-    - name: make check
+    - name: Run Tests
+      # Only keep this if your Makefile actually has a 'check' target
       run: make check
+
